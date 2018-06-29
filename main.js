@@ -17,8 +17,8 @@ function createWindow () {
 	if (lastWindowState === null) {
 		lastWindowState = {
 			width: 400,
-			height: 560,
-			frame: false,
+			height: 680,
+			// frame: false,
 			resizable: false
 		}
 	}
@@ -28,10 +28,12 @@ function createWindow () {
 		y: lastWindowState.y,
 		width: lastWindowState.width,
 		height: lastWindowState.height,
-		frame: false,
+		// frame: false,
 		resizable: false,
 		icon: path.join(__dirname, 'assets/png/64x64.png')
 	});
+
+	mainWindow.setMenu(null);
 
 	// and load the index.html of the app.
 	// mainWindow.loadURL('file://' + __dirname + '/index.html');
@@ -53,7 +55,7 @@ function createWindow () {
 			y: bounds.y,
 			width: bounds.width,
 			height: bounds.height,
-			frame: false,
+			// frame: false,
 			resizable: false
 		});
 	});

@@ -5,7 +5,6 @@ This project is made for the PTZOptics line of IP Cameras.
 
 All the components of this project are built using web technologies. Javascript, HTML, CSS, etc. It can be used in it's basic form as Javascript, HTML, and CSS. However, it includes all the additional files necessary to create your own electron based app package.
 
-If you have any bugs or issues to report, please post them [here](https://github.com/counteragent/Camera-Control/issues).
 
 ## Building the Electron App
 
