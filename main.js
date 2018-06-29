@@ -29,7 +29,8 @@ function createWindow () {
 		width: lastWindowState.width,
 		height: lastWindowState.height,
 		frame: false,
-		resizable: false
+		resizable: false,
+		icon: path.join(__dirname, 'assets/png/64x64.png')
 	});
 
 	// and load the index.html of the app.
