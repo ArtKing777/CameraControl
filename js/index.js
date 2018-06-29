@@ -552,6 +552,7 @@ function stop_autopan () {
 
 function clear_active_preset () {
 	$('.preset_button').removeClass("active");
+	$('.preset_img_button').removeClass("active");
 }
 
 $('body').on('click', '.autopan', function(e) {
