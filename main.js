@@ -14,21 +14,21 @@ function createWindow () {
 
 	var lastWindowState = storage.get("lastWindowState");
 
-	if (lastWindowState === null) {
+	// if (lastWindowState === null) {
 		lastWindowState = {
 			width: 400,
-			height: 680,
-			// frame: false,
+			height: 850,
+			frame: true,
 			resizable: false
 		}
-	}
+	// }
 
 	mainWindow = new BrowserWindow({
 		x: lastWindowState.x,
 		y: lastWindowState.y,
 		width: lastWindowState.width,
 		height: lastWindowState.height,
-		// frame: false,
+		frame: true,
 		resizable: false,
 		icon: path.join(__dirname, 'assets/png/64x64.png')
 	});
@@ -55,7 +55,7 @@ function createWindow () {
 			y: bounds.y,
 			width: bounds.width,
 			height: bounds.height,
-			// frame: false,
+			frame: true,
 			resizable: false
 		});
 	});

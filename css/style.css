@@ -203,40 +203,76 @@ legend {
   border-radius: 0 0 5px 0;
 }
 .preset-1 {
-  background: no-repeat url("../images/preset-button-main.png");
+  background: no-repeat url("../images/preset-button-stage-L.png");
 }
 .preset-1.active {
-  background: no-repeat url("../images/preset-button-main-active.png");
+  background: no-repeat url("../images/preset-button-stage-active-L.png");
 }
 .preset-2 {
-  background: no-repeat url("../images/preset-button-reader.png");
+  background: no-repeat url("../images/preset-button-stage.png");
 }
 .preset-2.active {
-  background: no-repeat url("../images/preset-button-reader-active.png");
+  background: no-repeat url("../images/preset-button-stage-active.png");
 }
 .preset-3 {
-  background: no-repeat url("../images/preset-button-table.png");
+  background: no-repeat url("../images/preset-button-stage-R.png");
 }
 .preset-3.active {
-  background: no-repeat url("../images/preset-button-table-active.png");
+  background: no-repeat url("../images/preset-button-stage-active-R.png");
 }
 .preset-4 {
-  background: no-repeat url("../images/preset-button-main_zoom.png");
+  background: no-repeat url("../images/preset-button-mic-L.png");
 }
 .preset-4.active {
-  background: no-repeat url("../images/preset-button-main_zoom-active.png");
+  background: no-repeat url("../images/preset-button-mic-L-active.png");
 }
 .preset-5 {
-  background: no-repeat url("../images/preset-button-full_stage.png");
+  background: no-repeat url("../images/preset-button-main.png");
 }
 .preset-5.active {
-  background: no-repeat url("../images/preset-button-full_stage-active.png");
+  background: no-repeat url("../images/preset-button-main-active.png");
 }
 .preset-6 {
-  background: no-repeat url("../images/preset-button-media.png");
+  background: no-repeat url("../images/preset-button-mic-R.png");
 }
 .preset-6.active {
+  background: no-repeat url("../images/preset-button-mic-R-active.png");
+}
+.preset-7 {
+  background: no-repeat url("../images/preset-button-table-L.png");
+}
+.preset-7.active {
+  background: no-repeat url("../images/preset-button-table-active-L.png");
+}
+.preset-8 {
+  background: no-repeat url("../images/preset-button-main-zoom.png");
+}
+.preset-8.active {
+  background: no-repeat url("../images/preset-button-main-zoom-active.png");
+}
+.preset-9 {
+  background: no-repeat url("../images/preset-button-table-R.png");
+}
+.preset-9.active {
+  background: no-repeat url("../images/preset-button-table-active-R.png");
+}
+.preset-10 {
+  background: no-repeat url("../images/preset-button-10.png");
+}
+.preset-10.active {
+  background: no-repeat url("../images/preset-button-10-active.png");
+}
+.preset-11 {
+  background: no-repeat url("../images/preset-button-media.png");
+}
+.preset-11.active {
   background: no-repeat url("../images/preset-button-media-active.png");
+}
+.preset-12 {
+  background: no-repeat url("../images/preset-button-12.png");
+}
+.preset-12.active {
+  background: no-repeat url("../images/preset-button-12-active.png");
 }
 .autopan {
   background: no-repeat url("../images/preset-button-autopan.png");
