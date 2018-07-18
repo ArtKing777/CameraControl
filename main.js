@@ -17,7 +17,7 @@ function createWindow () {
 	// if (lastWindowState === null) {
 		lastWindowState = {
 			width: 400,
-			height: 850,
+			height: 730,
 			frame: true,
 			resizable: false
 		}
