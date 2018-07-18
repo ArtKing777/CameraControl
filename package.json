@@ -19,7 +19,8 @@
 		"prerelease:win64": "rm -rf release/win64 && mkdirp release/win64",
 		"release:win32": "cp -v dist/win-ia32/{RELEASES,*.nupkg,*.exe} release/win32",
 		"release:win64": "cp -v dist/win/{RELEASES,*.nupkg,*.exe} release/win64",
-		"build-css": "lessc css/style.less css/style.css"
+		"build-css": "lessc css/style.less css/style.css",
+		"package-win": "electron-packager . Camera-Control --overwrite --asar=true --platform=win32 --arch=x64 --icon=assets/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CameraControl --version-string.FileDescription=CameraControl --version-string.ProductName=\"CameraControl\""
 	},
 	"build": {
 		"appId": "propernerd.camera.control",
